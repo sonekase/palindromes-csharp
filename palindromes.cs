@@ -20,7 +20,6 @@ class Palindromes
         matchCount++;
       }
     }
-    Console.WriteLine(matchCount);
     return matchCount == InputWord.Length;
   }
 }
